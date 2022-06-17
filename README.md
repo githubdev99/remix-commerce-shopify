@@ -1,6 +1,7 @@
 # Welcome to Remix!
 
 - [Remix Docs](https://remix.run/docs)
+- Tech Stack : [Remix](https://remix.run/docs), [Tailwind](https://tailwindcss.com/), [Shopify](https://shopify.dev/api), [Redis using Docker](https://hub.docker.com/_/redis)
 
 ## Development
 
@@ -14,6 +15,7 @@ This starts your app in development mode, rebuilding assets on file changes.
 
 ## Deployment
 
+Before proceeding, make sure your computer has [Docker](https://www.docker.com/get-started/) installed.<br>
 First, build your app for production:
 
 ```sh
