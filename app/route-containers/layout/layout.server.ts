@@ -54,7 +54,7 @@ export let loader: LoaderFunction = async ({ request, params }) => {
   let session = await getSession(request, params);
   let lang = session.getLanguage();
   let [categories, pages, cart, wishlist] = await Promise.all([
-    commerce.getCategories(lang, 2),
+    commerce.getCategories(lang, 10),
     commerce.getPages(lang),
     session
       .getCart()
