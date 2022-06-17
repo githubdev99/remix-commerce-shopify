@@ -5,6 +5,7 @@
 
 ## Development
 
+Before proceeding, make sure your computer has [Docker](https://www.docker.com/get-started/) installed.<br>
 From your terminal:
 
 ```sh
@@ -15,7 +16,6 @@ This starts your app in development mode, rebuilding assets on file changes.
 
 ## Deployment
 
-Before proceeding, make sure your computer has [Docker](https://www.docker.com/get-started/) installed.<br>
 First, build your app for production:
 
 ```sh
