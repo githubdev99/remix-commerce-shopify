@@ -157,10 +157,10 @@ export function Document({
             onOpenWishlist={() => setWishlistOpen(true)}
           />
         <div
-          className={location.pathname === '/en' ? 'h-[100vh] bg-no-repeat bg-cover' : ''}
+          className={(location.pathname === '/') || (location.pathname === '/en') ? 'h-[100vh] bg-no-repeat bg-cover' : ''}
           style={{ backgroundImage: 'url("./assets/bg-hero.jpeg")' }}
         >
-          {location.pathname === '/en' && <HeroSection />}
+          {(location.pathname === '/') || (location.pathname === '/en') && <HeroSection />}
         </div>
         <div className="flex-1">{children}</div>
         <Footer
