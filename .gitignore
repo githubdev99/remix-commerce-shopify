@@ -1,0 +1,13 @@
+.DS_Store
+node_modules
+
+/.cache
+/build
+/public/build
+/app/styles/global.css
+.env
+.env.local
+
+/cypress/videos
+/cypress/screenshots
+/runner-results
